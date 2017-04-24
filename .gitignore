@@ -1,0 +1,13 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Node Modules files
+node_modules
+
+# Orders files
+npm-debug.log
+*.map
+dist/
