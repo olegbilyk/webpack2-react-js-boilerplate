@@ -1,5 +1,6 @@
 # webpack2-react-js-boilerplate
 Webpack 2 setup for fast start a new React project
+
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](http://standardjs.com)
 
 ## Installation
@@ -48,7 +49,7 @@ $ npm run stylelint
 
 ## JavaScript Linting
 
-For JavaScript linting I'm using [eslint-config-standard](https://github.com/feross/eslint-config-standard)
+For JavaScript linting I'm using [eslint-config-standard-react](https://github.com/feross/eslint-config-standard-react)
 
 ```
 $ npm run eslint
