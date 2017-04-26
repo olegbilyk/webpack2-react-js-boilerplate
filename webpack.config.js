@@ -1,7 +1,7 @@
-const webpack = require('webpack');
-const path = require('path');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const develop = process.env.NODE_ENV !== 'production';
+const webpack = require('webpack')
+const path = require('path')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const develop = process.env.NODE_ENV !== 'production'
 
 module.exports = {
   context: path.resolve(__dirname, './src'),
@@ -20,12 +20,12 @@ module.exports = {
 
   module: {
     rules: [
-      // {
-      //   test: /\.js$/,
-      //   enforce: 'pre',
-      //   exclude: /node_modules/,
-      //   loader: 'eslint-loader'
-      // },
+      {
+        test: /\.js$/,
+        enforce: 'pre',
+        exclude: /node_modules/,
+        loader: 'eslint-loader'
+      },
       {
         test: /\.js$/,
         exclude: /node_modules/,
