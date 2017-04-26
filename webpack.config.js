@@ -1,3 +1,9 @@
+/*!
+ * @name        Webpack 2 React.js Boilerplate
+ * @author      Oleg Bilyk <https://www.linkedin.com/in/oleg-bilyk-3a6817b5/>
+ * @version     1.0.0
+ */
+
 const webpack = require('webpack');
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -20,12 +26,12 @@ module.exports = {
 
   module: {
     rules: [
-      // {
-      //   test: /\.js$/,
-      //   enforce: 'pre',
-      //   exclude: /node_modules/,
-      //   loader: 'eslint-loader'
-      // },
+      {
+        test: /\.js$/,
+        enforce: 'pre',
+        exclude: /node_modules/,
+        loader: 'eslint-loader'
+      },
       {
         test: /\.js$/,
         exclude: /node_modules/,
